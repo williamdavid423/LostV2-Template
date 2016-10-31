@@ -41,7 +41,7 @@ namespace LostV2
             /// Display text and game options to screen based on the current scene
             switch (scene)
             {
-                case 0:  //start scene 
+                case 0:  //start scene  
                     break;
                 case 1:   
                     break;
