@@ -16,7 +16,10 @@ namespace LostV2
 {
     public partial class Form1 : Form
     {
-        int scene = 0;  // tracks what part of the game the user is at
+        // tracks what part of the game the user is at
+        int scene = 0;  
+
+        // random number generator
 
         public Form1()
         {
@@ -54,6 +57,8 @@ namespace LostV2
                 case 5:
                     break;
                 case 6:
+                    break;
+                case 7:
                     break;
                 default:
                     break;
