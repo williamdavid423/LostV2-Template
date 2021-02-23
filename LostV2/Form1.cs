@@ -20,7 +20,7 @@ namespace LostV2
     public partial class Form1 : Form
     {
         // tracks what part of the game the user is at
-        int scene = 0;  
+        int scene = 0;
 
         // random number generator
 
@@ -53,24 +53,24 @@ namespace LostV2
                 {
                     Random randGen = new Random();
                     int value = randGen.Next(1, 11);
-                    if (value <= 7) {scene = 7; }
-                        else 
-                        {
+                    if (value <= 7) { scene = 7; }
+                    else
+                    {
                         scene = 2;
-                        }
-                        
                     }
-                    scene = 2;
-                }
-                else if (scene == 1) { scene = 4; }
-                else if (scene == 2) { scene = 99; }
-                else if (scene == 3) { scene = 99; }
-                else if (scene == 4) { scene = 6; }
-                else if (scene == 5) { scene = 99; }
-                else if (scene == 6) { scene = 99; }
-                else if (scene == 7) { scene = 99; }
-            }
 
+                }
+                scene = 2;
+            }
+            else if (scene == 1) { scene = 4; }
+            else if (scene == 2) { scene = 99; }
+            else if (scene == 3) { scene = 99; }
+            else if (scene == 4) { scene = 6; }
+            else if (scene == 5) { scene = 99; }
+            else if (scene == 6) { scene = 99; }
+            else if (scene == 7) { scene = 99; }
+        
+    
             /// Display text and game options to screen based on the current scene
             switch (scene)
             {

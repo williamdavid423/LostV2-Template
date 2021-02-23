@@ -49,7 +49,7 @@
             this.outputLabel.Size = new System.Drawing.Size(339, 257);
             this.outputLabel.TabIndex = 2;
             this.outputLabel.Text = "labell";
-            this.outputLabel.Click += new System.EventHandler(this.OutputLabel_Click);
+           
             // 
             // redLabel
             // 
@@ -61,7 +61,7 @@
             this.redLabel.Size = new System.Drawing.Size(257, 23);
             this.redLabel.TabIndex = 3;
             this.redLabel.Text = "labell";
-            this.redLabel.Click += new System.EventHandler(this.RedLabel_Click);
+            
             // 
             // blueLabel
             // 
